@@ -1,0 +1,70 @@
+body{
+
+font-family: 'Segoe UI';
+background: linear-gradient(135deg,#1e3c72,#2a5298);
+color:white;
+text-align:center;
+
+}
+
+h1{
+margin-top:30px;
+}
+
+.container{
+margin-top:150px;
+}
+
+.menu{
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+.btn{
+background:white;
+color:black;
+padding:15px 30px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.1);
+}
+
+#board{
+
+margin:30px auto;
+display:grid;
+grid-template-columns:repeat(9,50px);
+grid-template-rows:repeat(9,50px);
+
+}
+
+#board input{
+
+width:48px;
+height:48px;
+font-size:20px;
+text-align:center;
+border:1px solid #aaa;
+
+}
+
+.controls button{
+
+padding:12px 25px;
+margin:10px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
+
+}
+
+.controls button:hover{
+transform:scale(1.05);
+}

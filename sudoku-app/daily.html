@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Daily Sudoku</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>Daily Sudoku</h1>
+
+<div class="difficulty">
+
+<button onclick="loadPuzzle('easy')">Easy</button>
+<button onclick="loadPuzzle('medium')">Medium</button>
+<button onclick="loadPuzzle('hard')">Hard</button>
+
+</div>
+
+<div id="board"></div>
+
+<div class="controls">
+<button onclick="checkSolution()">Check</button>
+<button onclick="solveSudoku()">Reveal Solution</button>
+</div>
+
+<script src="js/daily.js"></script>
+
+</body>
+</html>
